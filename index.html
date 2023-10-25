@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container  " id="mainpage">
+
+
+        <div id="page">
+
+        </div>
+
+
+        .<div class="container" id="main">
+
+            <div id="option">
+                <h1>Welcome To Quiz Game</h1>
+                <h3>Click The Below Button To Know About Our Quiz</h3>
+            </div>
+
+            <div id="clickme">
+                <button data-bs-toggle="collapse" data-bs-target="#demo">Instructions</button>
+            </div>
+
+            <div id="demo" class="collapse">
+                <pre>Total Number Of Quiz Question Is 50 , After Attempt All The Question`s You Are Able To See Your Final Score 
+                    The Quiz Question`s Are Related To Python, Java Etc That You Can See In You Feed Below 
+                    If You Want To Skip The Question Press Next Button But That Will Effect Your Final Score
+                    Type 'PLAY' In Below Search Box And Press Conform Button To Start The Quiz
+                    😉Enjoy</pre>
+            </div>
+
+            <div id="choose">
+                <p>General Programming Quiz</p>
+                <p>Python Quiz</p>
+                <p>JavaScript Quiz</p>
+                <p>C & C++ Quiz</p>
+                <p>Java Quiz</p>
+                <p>Web Development Quiz</p>
+                <p>Islamic Quiz</p>
+                <p>Mathematics Quiz</p>
+            </div>
+
+            <div id="submit">
+                <input id="userinput" type="text" placeholder="Type 'PLAY' to start">
+                <a name="" id="btn" class="btn btn-primary" href="#" role="button">Conform</a>
+            </div>
+
+            <div id="flex">
+                <audio id="auto" loop controls>
+                    <!-- <source src="music/Quiz.mp3" type="audio/mp3"> -->
+                    <source src="https://drive.google.com/uc?id=1Dn33I4AUzFBu2_kq0d-0gYk66Z4wRUsX" type="audio/mp3">
+                </audio>
+                <button name="" id="info" class="btn " href="#" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#demo1">info</button>
+                <div id="demo1" class="collapse">
+                    <pre>😉 You Can Stop The Audio Anytime  
+Also Able To Download The Audio And
+Control The Volumes</pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-md " id="General">
+
+            <div id="heading1">
+                <h1>Welcome To Quiz Game</h1>
+                <hr>
+            </div>
+
+            <div id="Questions">
+                <h3>Question Goes Here </h3>
+            </div>
+
+            <div id="alloption">
+                <button value="index" onclick="disabled=true" type="button" class="btn " id="ans1">Answer 1</button>
+                <button value="index" onclick="disabled=true" type="button" class="btn " id="ans2">Answer 2</button>
+                <button value="index" onclick="disabled=true" type="button" class="btn " id="ans3">Answer 3</button>
+                <button value="index" onclick="disabled=true" type="button" class="btn " id="ans4">Answer 4</button>
+            </div>
+            <div id="next">
+                <button type="button" class="btn " id="nextbtn">Next</button>
+            </div>
+
+            <div id="flex">
+                <audio controls loop >
+                    <!-- <source src="music/Quiz.mp3" type="audio/mp3"> -->
+                    <source src="https://drive.google.com/uc?id=1Dn33I4AUzFBu2_kq0d-0gYk66Z4wRUsX" type="audio/mp3">
+                </audio>
+                <button name="" id="info" class="btn " href="#" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#demo1">info</button>
+                <div id="demo1" class="collapse">
+                    <pre>😉If The Audio Is Already Playing We Recommended User Not To Click The Play Button Again
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="quiz1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
+
